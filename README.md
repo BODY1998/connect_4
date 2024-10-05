@@ -54,11 +54,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Screenshots
 ![Game Screenshot](screenshot.png)  <!-- Replace with a valid path to an image -->
-```
-
-### Notes for Customization:
-1. **Repository URL**: Replace `https://github.com/yourusername/connect4.git` with the actual URL of your GitHub repository.
-2. **Screenshots**: If you have any images to showcase your game, include them and adjust the file path accordingly.
-3. **License**: If you have a specific license, ensure the information is accurate.
-
-Feel free to modify any sections according to your project's specific details or requirements! Would you like to add or change anything in the README?
