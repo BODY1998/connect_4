@@ -53,5 +53,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Special thanks to the Tkinter library for the GUI interface and the game AI concepts utilized.
 
 ## Screenshots
-![Game Screenshot](![image](https://github.com/user-attachments/assets/8b4aa5d2-c1f5-4335-80e2-d52bc25bc1af)
-)
