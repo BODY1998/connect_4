@@ -21,4 +21,4 @@ To install and run the Connect 4 game locally, follow these steps:
 ### Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/connect4.git
+   git clone https://github.com/BODY1998/connect_4
