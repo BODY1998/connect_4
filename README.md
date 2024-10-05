@@ -11,7 +11,6 @@ Connect 4 is a two-player board game in which players take turns dropping colore
 - [AI Modes](#ai-modes)
 - [Gameplay](#gameplay)
 - [Performance Measurement](#performance-measurement)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
