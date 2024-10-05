@@ -1,72 +1,64 @@
-# Connect 4
+# Connect 4 Game
 
-Connect 4 is a two-player board game in which players take turns dropping colored discs into a vertical grid. The objective is to be the first to connect four of one's own discs in a row, either horizontally, vertically, or diagonally. This implementation features both a player vs. player mode and a player vs. AI mode, where the AI can utilize Minimax or Alpha-Beta pruning strategies for decision-making.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Game Modes](#game-modes)
-- [AI Modes](#ai-modes)
-- [Gameplay](#gameplay)
-- [Performance Measurement](#performance-measurement)
-- [License](#license)
+## Description
+Connect 4 is a classic two-player connection game where players take turns dropping colored discs into a vertical grid. The objective is to be the first to form a horizontal, vertical, or diagonal line of four discs. This implementation includes both a player vs. player mode and an AI mode, where players can compete against a computer opponent.
 
 ## Features
-
-- **Player vs. Player Mode**: Compete against a friend.
-- **Player vs. AI Mode**: Challenge an AI opponent that can use advanced strategies.
-- **Graphical User Interface**: Intuitive interface built using Tkinter.
-- **Multiple AI Algorithms**: Choose between Minimax and Alpha-Beta pruning algorithms for AI moves.
+- **Two Player Mode:** Play against a friend.
+- **AI Opponent:** Play against an AI using Minimax or Alpha-Beta pruning algorithms.
+- **GUI:** A graphical user interface built with Tkinter.
+- **Game State Display:** Current game board is displayed after each move.
+- **Result Announcement:** The game announces the winner or if the game ends in a draw.
 
 ## Installation
+To install and run the Connect 4 game locally, follow these steps:
 
-To run this project locally, follow these steps:
+### Prerequisites
+- Python 3.x installed on your system.
 
+### Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/BODY1998/connect_4.git
-   cd connect_4
-2. Ensure you have Python 3.x installed on your machine.
-
-3. Install the required libraries:
-   ```bash
-   pip install matplotlib
+   git clone https://github.com/BODY1998/connect_4
    ```
-
-4. Run the game:
+2. Navigate to the project directory:
+   ```bash
+   cd connect4
+   ```
+3. Run the game:
    ```bash
    python connect4_gui.py
    ```
 
 ## Usage
+- Click on the desired column to drop your disc in the player vs. player mode.
+- In the AI mode, the AI will make its move automatically based on the selected algorithm (Minimax or Alpha-Beta).
+- The game continues until one player connects four discs or the board is full, resulting in a draw.
 
-Once the game is running, you will be prompted to select the AI depth and mode. The game will display the board, and you can click to drop your disc in the selected column.
+### AI Modes
+- **Minimax:** A decision-making algorithm that minimizes the possible loss.
+- **Alpha-Beta Pruning:** An optimization technique for the minimax algorithm that reduces the number of nodes evaluated.
 
-## Game Modes
+## AI Depth
+- At the start of the game, you will be prompted to select the AI depth (an integer between 1 and 10). This depth determines how many moves ahead the AI will analyze.
 
-- **Player vs. Player**: Two players take turns clicking on the columns to drop their discs.
-- **Player vs. AI**: One player competes against an AI opponent.
-
-## AI Modes
-
-- **Minimax**: A decision-making algorithm that minimizes the possible loss for a worst-case scenario.
-- **Alpha-Beta Pruning**: An optimized version of Minimax that reduces the number of nodes evaluated.
-
-## Gameplay
-
-1. Upon starting the game, select the AI depth (between 1 and 10) and the AI mode (Minimax or Alpha-Beta).
-2. The game board will appear, and players take turns making moves.
-3. The game ends when one player connects four discs in a row or the board is full, resulting in a draw.
-
-## Performance Measurement
-
-The project includes a performance measurement feature to compare the execution time of the Minimax and Alpha-Beta algorithms. Run the `performance_measurement.py` file to visualize the results.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or features, feel free to open an issue or submit a pull request.
 
 ## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Acknowledgments
+- Thanks to the contributors of the original Connect 4 game concept.
+- Special thanks to the Tkinter library for the GUI interface and the game AI concepts utilized.
+
+## Screenshots
+![Game Screenshot](screenshot.png)  <!-- Replace with a valid path to an image -->
 ```
 
-Feel free to adjust any sections as needed!
+### Notes for Customization:
+1. **Repository URL**: Replace `https://github.com/yourusername/connect4.git` with the actual URL of your GitHub repository.
+2. **Screenshots**: If you have any images to showcase your game, include them and adjust the file path accordingly.
+3. **License**: If you have a specific license, ensure the information is accurate.
+
+Feel free to modify any sections according to your project's specific details or requirements! Would you like to add or change anything in the README?
