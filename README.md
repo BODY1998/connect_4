@@ -65,16 +65,6 @@ Once the game is running, you will be prompted to select the AI depth and mode. 
 
 The project includes a performance measurement feature to compare the execution time of the Minimax and Alpha-Beta algorithms. Run the `performance_measurement.py` file to visualize the results.
 
-## Contributing
-
-Contributions are welcome! If you would like to contribute, please fork the repository and submit a pull request.
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
